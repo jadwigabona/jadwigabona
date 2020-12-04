@@ -1,0 +1,16 @@
+div.nagłówek{
+    background-color: palevioletred;
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 40;
+    position: top;
+    text-align: center;
+}
+div.CV{
+    background-color: #c0c4ff;
+    color: whitesmoke;
+    font-style: normal;
+    font-size: 30;
+    position: top;
+    text-align: center;
+}
