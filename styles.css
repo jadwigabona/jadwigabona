@@ -1,4 +1,8 @@
-div.nagłówek{
+* {
+    margin: 10px;
+}
+
+div.naglowek {
     background-color: palevioletred;
     color: whitesmoke;
     font-style: normal;
@@ -6,7 +10,8 @@ div.nagłówek{
     position: top;
     text-align: center;
 }
-div.CV{
+
+div.CV {
     background-color: #f3aedc;
     color: whitesmoke;
     font-style: normal;
@@ -14,6 +19,48 @@ div.CV{
     position: top;
     text-align: center;
 }
-.picture{
+
+.picture {
     width: 300px;
+}
+
+.przejscie {
+    font-weight: bold;
+}
+
+.przejscie:hover {
+    font-style: oblique;
+    color: yellowgreen;
+}
+
+nav a.przejscie {
+    text-decoration: none;
+    background-color: teal;
+    /* margin: 20px; */
+    padding: 20px;
+} 
+
+a.przejscie {
+    background-color: tomato;
+}
+
+a#tumblrlink {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: burlywood;
+}
+
+footer div {
+    width: 600px;
+    height: 300px;
+    border: 2px dotted black;
+    border-radius: 40px;
+}
+
+footer p {
+    margin: 40px;
+    padding: 40px;
 }
