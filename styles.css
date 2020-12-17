@@ -64,3 +64,8 @@ footer p {
     margin: 40px;
     padding: 40px;
 }
+
+div.column {
+    background-color: blueviolet;
+}
+    
