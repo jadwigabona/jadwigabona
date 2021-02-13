@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+
+nav#menu_sidebar {
+    background-color: sienna;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    background-color: tan;
+}
+
+#everything {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* grid-template-rows: 20% 20% 20% 20% 20%; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    /* height: 80%; */
+    width: 80%;
+    padding: 25px;
+}
+
+.page_title_decoration {
+    width: 300px;
+}
+
+.subpoint_decoration {
+    width: 25px;
+}
+
+.recommendation_item {
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.recommendation_item q.reco_quote {
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.recommendation_main_title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}

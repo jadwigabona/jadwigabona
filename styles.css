@@ -38,7 +38,7 @@ nav a.przejscie {
     background-color: teal;
     /* margin: 20px; */
     padding: 20px;
-} 
+}
 
 a.przejscie {
     background-color: tomato;
@@ -67,5 +67,14 @@ footer p {
 
 div.column {
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    overflow: scroll;
 }
-    
+
+div.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
