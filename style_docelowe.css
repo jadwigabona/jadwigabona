@@ -6,14 +6,14 @@ body {
 }
 
 nav#menu_sidebar {
-    background-color: sienna;
+    background-color: #c68b3b;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 main {
-    background-color: tan;
+    background-color: #fff9f2;
 }
 
 #everything {
@@ -35,20 +35,30 @@ main {
 }
 
 .page_title_decoration {
-    width: 300px;
+    width: 250px;
 }
 
 .subpoint_decoration {
     width: 25px;
-}
-
-.recommendation_item {
-    border: solid 2px black;
     margin: 10px;
 }
 
+.recommendation_item {
+    /* border: solid 2px black; */
+    margin: 60px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.subpoint_decoration {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; */
+}
+
 .recommendation_item q.reco_quote {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin: 10px;
 }
 
@@ -57,4 +67,29 @@ main {
     align-items: center;
     flex-direction: row;
     justify-content: center;
+}
+
+.subpage_heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #c68b3b;
+}
+
+cite {
+    color: #c68b3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+q {
+    color: #c68b3b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reco_quote {
+    text-align: justify;
+}
+
+.reco_author {
+    text-align: left;
+    font-size: 13px;
 }
