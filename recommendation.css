@@ -14,6 +14,7 @@ nav#menu_sidebar {
 
 main {
     background-color: #fff9f2;
+    overflow-y: scroll;
 }
 
 #everything {
@@ -26,6 +27,7 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
+    /* display: inherit; */
 }
 
 .logo {
@@ -44,21 +46,24 @@ main {
 }
 
 .recommendation_item {
-    /* border: solid 2px black; */
-    margin: 60px;
+    border: solid 2px black;
+    margin: 100px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 }
 
-.subpoint_decoration {
+.reco_subpoint_container {
+    border: solid 2px black;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column; */
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
 }
 
 .recommendation_item q.reco_quote {
-    /* border: solid 2px black; */
+    border: solid 2px black;
     margin: 10px;
 }
 
